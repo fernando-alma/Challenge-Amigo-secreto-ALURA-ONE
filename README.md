@@ -34,10 +34,12 @@ Este proyecto permite agregar nombres a una lista y luego realizar un sorteo ale
 ## 🛠️ Instalación y ejecución
 Si deseas ejecutar el proyecto en tu entorno local:
 
+
 1. Clona este repositorio:
    ```sh
-  git clone https://github.com/fernando-alma/Challenge-Amigo-secreto-ALURA-ONE.git]
+   git clone [https://github.com/fernando-alma/Challenge-Amigo-secreto-ALURA-ONE.git
    ```
+
 2. Abre el archivo `index.html` en tu navegador favorito.
 
 No se requieren dependencias ni instalación de paquetes. 🚀
