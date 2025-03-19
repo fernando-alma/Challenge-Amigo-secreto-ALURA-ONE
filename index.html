@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge Amigo Secreto - Alura ONE</title>
+    <!-- Estilos -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <main class="main-content">
+        <!-- Encabezado -->
+        <header class="header-banner">
+            <h1 class="main-title">Amigo Secreto</h1>
+            <img class="main-hero" src="assets/amigo-secreto.png" alt="Imagen representativa de amigo secreto">
+        </header>
+        
+        <!-- Sección de ingreso de nombres -->
+        <section class="input-section">
+            <h2 id="resultadoSorteo" class="section-title">Digite el nombre de sus amigos</h2>
+            <div class="input-wrapper">
+                <input type="text" id="amigo" class="input-name" placeholder="Escribe un nombre">
+                <button class="button-add" onclick="agregarAmigo()">Añadir</button>
+            </div>
+           
+            <!-- Lista de nombres ingresados -->
+            <ul id="listaAmigos" class="name-list" aria-label="Lista de amigos" role="list"></ul>
+
+            <!-- Resultado del sorteo -->
+            <h2 id="resultado" class="result-message" aria-live="polite"></h2>
+
+            <div class="button-container">
+                <button class="button-draw" onclick="sortearAmigo()" aria-label="Sortear amigo secreto">
+                    <img src="assets/play_circle_outline.png" alt="Ícono para sortear">
+                    Sortear amigo
+                </button>
+            </div>
+
+            <!-- Botón para reiniciar -->
+            <div class="button-container">
+                <button class="button-reset" onclick="reiniciarJuego()">Reiniciar</button>
+            </div>
+        </section>
+    </main>
+
+    <script src="app.js" defer></script>
+</body>
+</html>

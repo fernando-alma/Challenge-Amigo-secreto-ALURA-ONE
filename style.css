@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* Variables de colores */
+:root {
+  --color-primary: #ffffff;
+  --color-secondary: #03adfc;
+  --color-tertiary: #2d0a8c;
+  --color-button: #2d0a8c;
+  --color-button-hover: #4b20e5;
+  --color-text: #000000;
+  --color-white: #ffffff;
+}
+
+/* ----- RESET GENERAL ----- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(133, 18, 214, 1) 70%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ----- CONTENEDOR PRINCIPAL ----- */
+.main-content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+/* ----- BANNER ----- */
+.header-banner {
+  flex: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+}
+
+.main-hero {
+  width: 40%;
+}
+
+/* ----- SECCIÓN DE ENTRADA ----- */
+.input-section {
+  flex: 60%;
+  background-color: var(--color-secondary);
+  border: 1px solid #000;
+  border-radius: 64px 64px 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+}
+
+/* ----- TÍTULOS ----- */
+.main-title {
+  font-size: 48px;
+  font-family: "Krona One", sans-serif;
+  font-weight: 900;
+  color: var(--color-white);
+}
+
+.section-title {
+  font-family: "Krona One", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  color: var(--color-primary);
+  margin: 10px 0;
+  text-align: center;
+}
+
+/* ----- INPUT Y BOTÓN ----- */
+.input-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 600px;
+  margin-top: 20px;
+}
+
+.input-name {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #000;
+  border-radius: 25px 0 0 25px;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* ----- BOTONES ----- */
+button {
+  padding: 15px 30px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  border-radius: 25px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  border: none;
+}
+
+.button-add {
+  background-color: var(--color-tertiary);
+  color: var(--color-white);
+  border-radius: 0 25px 25px 0;
+}
+
+.button-add:hover {
+  background-color: var(--color-button-hover);
+}
+
+/* ----- BOTÓN SORTEAR ----- */
+.button-draw {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 300px;
+  padding: 15px;
+  color: var(--color-white);
+  background-color: var(--color-button);
+  font-size: 16px;
+  margin-top: 20px;
+  border-radius: 50px;
+}
+
+.button-draw img {
+  margin-right: 10px;
+}
+
+.button-draw:hover {
+  background-color: var(--color-button-hover);
+}
+
+/* ----- BOTÓN REINICIAR ----- */
+.button-reset {
+  background-color: #ff4d4d;
+  color: white;
+  margin-top: 15px;
+  width: 150px;
+}
+
+.button-reset:hover {
+  background-color: #e60000;
+}
+
+/* ----- LISTAS ----- */
+ul {
+  list-style-type: none;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  margin: 20px 0;
+  font-weight: 700;
+  background: #2d0a8c;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+/* Ajuste para la lista de nombres */
+.name-list {
+  padding: 10px;
+  border-radius: 10px;
+  display: none; /* Se oculta hasta que haya elementos */
+}
