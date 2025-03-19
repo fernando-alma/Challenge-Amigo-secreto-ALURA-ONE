@@ -36,7 +36,7 @@ Si deseas ejecutar el proyecto en tu entorno local:
 
 1. Clona este repositorio:
    ```sh
-  [ git clone https://github.com/tu-usuario/amigo-secreto.git](https://github.com/fernando-alma/Challenge-Amigo-secreto-ALURA-ONE.git)
+  git clone https://github.com/tu-usuario/amigo-secreto.git](https://github.com/fernando-alma/Challenge-Amigo-secreto-ALURA-ONE.git
    ```
 2. Abre el archivo `index.html` en tu navegador favorito.
 
