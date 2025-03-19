@@ -47,7 +47,7 @@ No se requieren dependencias ni instalación de paquetes. 🚀
 ## 📷 Capturas de pantalla
 
 ![Captura de pantalla del juego del AMIGO SECRETO](./assets/Captura%20de%20Challenge%20Amigo%20Secreto.png)
-<img src="./assets/Captura de Challenge Amigo Secreto.png" width="500">
+
 
 ---
 
